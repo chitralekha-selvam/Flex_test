@@ -1,0 +1,10 @@
+[bulid]
+ command="npm run build"
+ publish="push-to-react-app/build"
+ base="path-to-react-app"
+[[redirects]]
+from="/*"
+to="/nettest.html"
+status=200
+[permalinks]
+post="/:year/:month/:day/:slug/"
